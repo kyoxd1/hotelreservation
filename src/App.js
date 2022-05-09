@@ -1,10 +1,15 @@
 import React from 'react';
+import Header from './components/Header';
+import Home from './components/Home';
+import SearchPage from './components/SearchPage';
 import { Counter } from './features/counter/Counter';
 
 function App() {
   return (
     <div>
-      <h1>Inicio</h1>
+      <Header/>
+      <Home/>
+      <SearchPage/>
     </div>
   );
 }
